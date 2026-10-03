@@ -85,6 +85,14 @@ fun ProfilScreen() {
                 color = Color.Black
             )
 
+            Text(
+                text = "20240140048",
+                fontSize = 26.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White
+            )
+
+
 @Preview(showBackground = true)
 @Composable
 fun ProfilScreenPreview() {
