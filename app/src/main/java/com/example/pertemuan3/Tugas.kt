@@ -70,6 +70,14 @@ fun ProfilScreen() {
             Spacer(modifier = Modifier.height(30.dp))
 
 
+            Text(
+                text = "Nama",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red
+            )
+
+
 @Preview(showBackground = true)
 @Composable
 fun ProfilScreenPreview() {
