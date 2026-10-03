@@ -27,3 +27,11 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun ProfilScreen() {
 
+
+@Preview(showBackground = true)
+@Composable
+fun ProfilScreenPreview() {
+    MaterialTheme {
+        ProfilScreen()
+    }
+}
