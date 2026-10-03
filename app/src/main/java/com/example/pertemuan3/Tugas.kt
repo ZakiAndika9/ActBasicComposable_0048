@@ -44,6 +44,13 @@ fun ProfilScreen() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
 
+            Text(
+                text = "Login",
+                fontSize = 36.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
+
 
 @Preview(showBackground = true)
 @Composable
