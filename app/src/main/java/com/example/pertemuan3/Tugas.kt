@@ -52,6 +52,13 @@ fun ProfilScreen() {
             )
 
 
+            Text(
+                text = "Ini adalah halaman login,",
+                fontSize = 16.sp,
+                color = Color.White
+            )
+
+
 @Preview(showBackground = true)
 @Composable
 fun ProfilScreenPreview() {
