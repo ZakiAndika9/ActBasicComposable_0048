@@ -27,6 +27,8 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun ProfilScreen() {
 
+    Box(modifier = Modifier.fillMaxSize()) {
+
 
 @Preview(showBackground = true)
 @Composable
