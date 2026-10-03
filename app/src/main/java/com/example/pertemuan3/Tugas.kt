@@ -67,6 +67,8 @@ fun ProfilScreen() {
                 modifier = Modifier.size(140.dp)
             )
 
+            Spacer(modifier = Modifier.height(30.dp))
+
 
 @Preview(showBackground = true)
 @Composable
