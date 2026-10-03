@@ -37,6 +37,13 @@ fun ProfilScreen() {
             modifier = Modifier.fillMaxSize()
         )
 
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 60.dp, bottom = 20.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+
 
 @Preview(showBackground = true)
 @Composable
