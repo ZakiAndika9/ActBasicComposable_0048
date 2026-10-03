@@ -61,6 +61,11 @@ fun ProfilScreen() {
             Spacer(modifier = Modifier.height(40.dp))
 
 
+            Image(
+                painter = painterResource(id = R.drawable.drakealbum),
+                contentDescription = "Logo",
+                modifier = Modifier.size(140.dp)
+            )
 
 
 @Preview(showBackground = true)
