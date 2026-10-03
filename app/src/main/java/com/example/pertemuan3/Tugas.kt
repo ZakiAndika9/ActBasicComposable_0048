@@ -92,6 +92,8 @@ fun ProfilScreen() {
                 color = Color.White
             )
 
+            Spacer(modifier = Modifier.height(40.dp))
+
 
 @Preview(showBackground = true)
 @Composable
