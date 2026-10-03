@@ -30,6 +30,14 @@ fun ProfilScreen() {
     Box(modifier = Modifier.fillMaxSize()) {
 
 
+        Image(
+            painter = painterResource(id = R.drawable.view),
+            contentDescription = "Background",
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
+
+
 @Preview(showBackground = true)
 @Composable
 fun ProfilScreenPreview() {
