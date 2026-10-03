@@ -78,6 +78,13 @@ fun ProfilScreen() {
             )
 
 
+            Text(
+                text = "Muhammad Zaki Andika",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
+
 @Preview(showBackground = true)
 @Composable
 fun ProfilScreenPreview() {
