@@ -94,6 +94,17 @@ fun ProfilScreen() {
 
             Spacer(modifier = Modifier.height(40.dp))
 
+            Image(
+                painter = painterResource(id = R.drawable.drakee),
+                contentDescription = "Profil",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(260.dp)
+                    .clip(CircleShape)
+            )
+        }
+    }
+}
 
 @Preview(showBackground = true)
 @Composable
